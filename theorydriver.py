@@ -8,12 +8,8 @@ def display_images(image_paths):
         return  # No images to display
     for path in image_paths:
         try:
-            # Debugging: print the current working directory
-            print(f"Current working directory: {os.getcwd()}")
-            
             # Build the full path relative to the current directory
             full_path = os.path.join("images", path)  # Images folder is "images"
-            print(f"Opening image: {full_path}")  # Debugging: Print the image path
             image = Image.open(full_path)
             image.show()  # Opens the image in the default image viewer
         except FileNotFoundError:
