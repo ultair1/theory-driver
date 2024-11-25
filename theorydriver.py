@@ -56,7 +56,7 @@ def main():
             
             for option in q['options']:
                 print(option)
-            user_answer = input("Enter the letter of your answer: ").strip().upper()
+            user_answer = input("Enter the letter of your answer : ").strip().upper()
             if user_answer == q['answer']:
                 print("Correct!\n")
                 score += 1
@@ -70,7 +70,7 @@ def main():
             break
 
         # Wait for the user to close the image viewer before continuing
-        input("Press Enter to continue...")
+        input("Press Enter to continue!")
 
 if __name__ == "__main__":
     main()
