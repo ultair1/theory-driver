@@ -1,63 +1,93 @@
+import json
 import os
+import subprocess
+import time
 from PIL import Image
-os.chdir(os.path.dirname(os.path.realpath(__file__)))  # Set the current directory to the folder where the script is located
 
-def display_images(image_paths):
-    """Open multiple images in external viewers."""
-    if not image_paths:
-        return  # No images to display
+def load_questions(file_path):
+    """Load questions from a JSON file."""
+    try:
+        with open(file_path, "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print(f"Error: File '{file_path}' not found.")
+        return []
+
+def resize_images(images, target_width, target_height):
+    """Resize all images to a fixed size."""
+    resized_images = []
+    for img in images:
+        resized_images.append(img.resize((target_width, target_height)))  # Resize image
+    return resized_images
+
+def combine_images(image_paths, target_width, target_height):
+    """Combine multiple resized images side by side."""
+    images = []
     for path in image_paths:
         try:
-            # Build the full path relative to the current directory
-            full_path = os.path.join("images", path)  # Images folder is "images"
+            full_path = os.path.join("images", path)
             image = Image.open(full_path)
-            image.show()  # Opens the image in the default image viewer
+            images.append(image)
         except FileNotFoundError:
             print(f"Error: Image file '{path}' not found.")
+            return None
+
+    # Resize images to the same size before combining
+    resized_images = resize_images(images, target_width, target_height)
+
+    # Combine images side by side
+    total_width = sum(img.width for img in resized_images)
+    max_height = max(img.height for img in resized_images)
+
+    combined_image = Image.new("RGB", (total_width, max_height))
+
+    # Paste images side by side
+    current_width = 0
+    for img in resized_images:
+        combined_image.paste(img, (current_width, 0))
+        current_width += img.width
+
+    # Save the combined image to a temporary file
+    combined_image_path = "combined_image.png"
+    combined_image.save(combined_image_path)
+
+    return combined_image_path
+
+def display_images(image_paths):
+    """Open combined image in MS Paint."""
+    combined_image_path = combine_images(image_paths, target_width=200, target_height=200)  # Resize all images to 200x200
+    if combined_image_path:
+        subprocess.Popen(["mspaint", combined_image_path])  # Open combined image in MS Paint
 
 def main():
-    # List of questions, some with multiple images
-    questions = [
-        {
-            "question": "What does this sign mean?",
-            "options": [
-                "A. Hump bridge",
-                "B. Humps in the road",
-                "C. Entrance to tunnel",
-                "D. Soft verges"
-            ],
-            "images": ["curvedarrowmarking.gif", "instrumentpanel1.gif"],  # List of image paths
-            "answer": "D"  # Example correct answer
-        },
-        {
-            "question": "What should you do when you're approaching traffic lights that have red and amber showing together?",
-            "options": [
-                "A. Pass the lights if the road is clear",
-                "B. Take care because there's a fault with the lights",
-                "C. Wait for the green light",
-                "D. Stop because the lights are changing to red"
-            ],
-            "images": None,  # No images for this question
-            "answer": "D"  # Example correct answer
-        }
-    ]
+    questions = load_questions("questions.json")
 
-    score = 0  # Initialize score
-    print("Welcome to the Driving Theory Quiz!\n")
+    if not questions:
+        print("No questions available. Exiting.")
+        return
 
-    while True:  # Main loop
+    while True:
+        score = 0
+        print("Welcome to the Driving Theory Quiz!\n")
+
         for i, q in enumerate(questions, 1):
             print(f"Question {i}: {q['question']}")
-            
-            # Display images if available
+
+            # Display images (if any) for the current question
             if q.get("images"):
-                print("Opening images for this question...")
+                print("Displaying images for this question...")
                 display_images(q["images"])
-            
-            for option in q['options']:
+
+                # Wait for a moment to allow the user to view the images
+                time.sleep(2)
+
+            # Display question options
+            for option in q["options"]:
                 print(option)
-            user_answer = input("Enter the letter of your answer : ").strip().upper()
-            if user_answer == q['answer']:
+
+            user_answer = input("Enter the letter of your answer: ").strip().upper()
+
+            if user_answer == q["answer"]:
                 print("Correct!\n")
                 score += 1
             else:
@@ -69,8 +99,7 @@ def main():
             print("Thanks for playing! Goodbye!")
             break
 
-        # Wait for the user to close the image viewer before continuing
-        input("Press Enter to continue!")
 
 if __name__ == "__main__":
     main()
+    input("Press Enter to exit...")
