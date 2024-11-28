@@ -517,48 +517,48 @@
         "answer": "A"
     },
     {
-        "question": "",
+        "question": "How should a load be carried on your roof rack?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Securely fastened with suitable restraints",
+            "B. Loaded towards the rear of the vehicle",
+            "C. Visible in your exterior mirror",
+            "D. Covered with plastic sheeting"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "How should the right-hand lane of a three-lane motorway be used?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. As a right-turn lane",
+            "B. As a high-speed lane",
+            "C. As an overtaking lane",
+            "D. As an acceleration lane"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you dispose of a used vehicle battery?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Bury it in your garden",
+            "B. Take it to a local-authority disposal site",
+            "C. Leave it on waste land",
+            "D. Put it in the dustbin"
         ],
         "images": null,
-        "answer": ""
+        "answer": "B"
     },
     {
-        "question": "",
+        "question": "How should you drive in areas with traffic-calming measures?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. In the centre of the road",
+            "B. With headlights on dipped beam",
+            "C. At a reduced speed",
+            "D. At the speed limit"
         ],
-        "images": null,
-        "answer": ""
+        "images": ["traffic-calmingmeasures.gif"],
+        "answer": "C"
     },
     {
         "question": "",
