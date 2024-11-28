@@ -89,7 +89,7 @@ def main():
             # Display images (if any) for the current question
             paint_process = None
             if q.get("images"):
-                print("Displaying images for this question...")
+                print("Note: Images are displayed left to right in alphabetical order\nfrom A to D")
                 paint_process = display_images(q["images"])
 
             # Display question options
