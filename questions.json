@@ -33,6 +33,50 @@
         "answer": "D"
     },
     {
+        "question": "A driver's begaviour has upset you. How can you get over this incident safely?",
+        "options": [
+            "A. Gesture to them with your hand",
+            "B. Shout abusive language",
+            "C. Stop and take a break",
+            "D. Follow them, flashing your headlights"
+        ],
+        "images": null,
+        "answer": "C"
+    },
+    {
+        "question": "A horse rider is in the left-hand lane approaching a roundabout. Where should you expect the rider to go?",
+        "options": [
+            "A. In any direction",
+            "B. To the left",
+            "C. To the right",
+            "D. Straight ahead"
+        ],
+        "images": null,
+        "answer": "A"
+    },
+    {
+        "question": "A police car is following you. What should you do if the police officer flashes the headlights and points to the left?",
+        "options": [
+            "A. Move over to the left",
+            "B. Turn left at the next junction",
+            "C. Stop immediately",
+            "D. Pull up on the left"
+        ],
+        "images": null,
+        "answer": "D"
+    },
+    {
+        "question": "A police officer asks to see your documents. You don't have them with you. How many days do you have to produce them at a police station?",
+        "options": [
+            "A. 5 Days",
+            "B. 7 Days",
+            "C. 14 Days",
+            "D. 21 Days"
+        ],
+        "images": null,
+        "answer": "B"
+    },
+    {
         "question": "",
         "options": [
             "A. ",
