@@ -29,7 +29,7 @@
             "C. They may use the lane when necessary",
             "D. They mustn't drive along the lane"
         ],
-        "images": ["cyclelanewhitemark.gif", "humps.png"],
+        "images": ["cyclelanewhitemark.gif"],
         "answer": "D"
     },
     {
