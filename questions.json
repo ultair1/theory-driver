@@ -1,24 +1,46 @@
 [
     {
-        "question": "What does this sign mean?",
+        "question": "A casualty isn't breathing normally and needs CPR. At what rate should you press down and release on the centre of their chest?",
         "options": [
-            "A. Hump bridge",
-            "B. Humps in the road",
-            "C. Entrance to tunnel",
-            "D. Soft verges"
-        ],
-        "images": ["curvedarrowmarking.gif", "instrumentpanel1.gif"],
-        "answer": "B"
-    },
-    {
-        "question": "What should you do when you're approaching traffic lights that have red and amber showing together?",
-        "options": [
-            "A. Pass the lights if the road is clear",
-            "B. Take care because there's a fault with the lights",
-            "C. Wait for the green light",
-            "D. Stop because the lights are changing to red"
+            "A. 240 times per minute",
+            "B. 60 times per minute",
+            "C. 10 times per minute",
+            "D. 120 times per minute"
         ],
         "images": null,
-        "answer": "C"
+        "answer": "D"
+    },
+    {
+        "question": "A collision has just happened. An injured person is lying in a busy road. What's the first thing you should do?",
+        "options": [
+            "A. Warn other traffic",
+            "B. Make sure the injured person is kept warm",
+            "C. Treat the person for shock",
+            "D. Place them in the recovery position"
+        ],
+        "images": null,
+        "answer": "A"
+    },
+    {
+        "question": "A cycle lane, marked by a solid white line, is in operation. What does this mean for car drivers?",
+        "options": [
+            "A. They may park in the lane",
+            "B. They may drive in the lane at any time",
+            "C. They may use the lane when necessary",
+            "D. They mustn't drive along the lane"
+        ],
+        "images": ["cyclelanewhitemark.gif", "humps.png"],
+        "answer": "D"
+    },
+    {
+        "question": "",
+        "options": [
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
+        ],
+        "images": null,
+        "answer": ""
     }
 ]
