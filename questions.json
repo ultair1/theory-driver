@@ -253,7 +253,7 @@
         "answer": "C"
     },
     {
-        "question": "Do you need to plan rest stops when you’re planning a long journey?",
+        "question": "Do you need to plan rest stops when you're planning a long journey?",
         "options": [
             "A. No, you'll be less tired if you get there as soon as possible",
             "B. Yes, you should plan to stop every half an hour",
@@ -341,7 +341,7 @@
         "answer": "B"
     },
     {
-        "question": "How can you avoid wheelspin when you’re driving on an icy road?",
+        "question": "How can you avoid wheelspin when you're driving on an icy road?",
         "options": [
             "A. Drive in a low gear at all times",
             "B. Brake gently and repeatedly",
@@ -374,7 +374,7 @@
         "answer": "D"
     },
     {
-        "question": "How can you make sure that a satellite navigation (satnav) system doesn’t distract you when you’re driving?",
+        "question": "How can you make sure that a satellite navigation (satnav) system doesn't distract you when you're driving?",
         "options": [
             "A. Choose a voice that you find calming",
             "B. Set it before starting your journey",
@@ -440,7 +440,7 @@
         "answer": "A"
     },
     {
-        "question": "How can you use your vehicle’s engine as a brake? ",
+        "question": "How can you use your vehicle's engine as a brake? ",
         "options": [
             "A. By selecting reverse gear",
             "B. By changing to a higher gear",
@@ -451,7 +451,7 @@
         "answer": "D"
     },
     {
-        "question": "How can you use your vehicle’s engine to control your speed?",
+        "question": "How can you use your vehicle's engine to control your speed?",
         "options": [
             "A. By changing to a higher gear",
             "B. By changing to a lower gear",
@@ -561,257 +561,257 @@
         "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you drive when you're driving along a road that has road humps?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Always keep to the maximum legal speed",
+            "B. Drive slowly at school times only",
+            "C. Maintain a reduced speed throughout",
+            "D. Accelerate quickly between the humps"
         ],
-        "images": null,
-        "answer": ""
+        "images": ["roadwithhumps.gif"],
+        "answer": "B"
     },
     {
-        "question": "",
+        "question": "How should you give an arm signal to turn left?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Leftmost image",
+            "B. Middle left image",
+            "C. Middle right image",
+            "D. Rightmost image"
         ],
-        "images": null,
-        "answer": ""
+        "images": ["armsignal1.gif", "armsignal2","armsignal3.gif", "armsignal4"],
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you load your trailer?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Put heavy items in the corners",
+            "B. Put heavy items at the front",
+            "C. Put heavy items at the back",
+            "D. Put heavy items over the axle(s)"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "How should you overtake horse riders?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Drive up close and overtake as soon as possible",
+            "B. Use your horn just once to warn them",
+            "C. Speed isn't important but allow plenty of room",
+            "D. Drive slowly and leave plenty of room"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "How should you position yourself when you use the emergency telephone on a motorway?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Stand on the hard shoulder",
+            "B. Stay close to the carriageway",
+            "C. Face the oncoming traffic",
+            "D. Keep your back to the traffic"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you react to inexperienced drivers?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Overtake them as soon as possible",
+            "B. Flash your headlights to indicate that it's safe for them to proceed",
+            "C. Be patient and prepare for them to react more slowly",
+            "D. Sound your horn to warn them of your presence"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you rejoin the motorway after a breakdown on the hard shoulder?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Wait until a vehicle in the left-hand lane signals to you that it's safe to rejoin",
+            "B. Keep your hazard lights flashing until you have safely rejoined the carriageway",
+            "C. Build up speed on the hard shoulder before looking for a safe gap in the traffic",
+            "D. Move straight out into the left-hand lane as you are not allowed to drive on the hard shoulder"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you signal if you're going straight ahead at a roundabout?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Signal right on the approach and then left to leave the roundabout",
+            "B. Signal right on the approach to the roundabout and keep the signal on",
+            "C. Signal left just after you pass the exit before the one you're going to take",
+            "D. Signal left after you leave the roundabout and enter the new road"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How should you use anti-lock brakes when you need to stop in an emergency?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Brake promptly and firmly until you've stopped",
+            "B. Apply the parking brake to reduce the stopping distance",
+            "C. Brake normally but grip the steering wheel tightly",
+            "D. Keep pumping the footbrake to prevent skidding"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "How should you use the lanes on a motorway?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Keep to the left-hand lane unless you're overtaking",
+            "B. Use the lane that has the least traffic",
+            "C. Overtake using the lane that's clearest",
+            "D. Stay in one lane until you reach your exit"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "How will a heavy load on your roof rack affect your vehicle's handling?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. It will make the steering lighter",
+            "B. It will reduce the stopping distance",
+            "C. It will reduce stability",
+            "D. It will improve the road holding"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "How will a police officer in a patrol vehicle signal for you to stop?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Flash the headlights, indicate left and point to the left",
+            "B. Pull alongside you, use the siren and wave you to stop",
+            "C. Use the siren, overtake, cut in front and stop",
+            "D. Overtake and give a slowing down arm signal"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "How will a roof rack affect your car?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. The engine will use more oil",
+            "B. The car will accelerate faster",
+            "C. There will be less wind noise",
+            "D. Fuel consumption will increase"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "How will a school crossing patrol signal you to stop?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. By giving you an arm signal",
+            "B. By displaying a red light",
+            "C. By pointing to children waiting to cross",
+            "D. By displaying a 'stop' sign"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "How will you benefit from following the manufacturer's service schedule for your vehicle?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Your vehicle tax will be lower",
+            "B. Your vehicle will remain reliable",
+            "C. Your vehicle will be cheaper to insure",
+            "D. Your journey times will be reduced"
         ],
         "images": null,
-        "answer": ""
+        "answer": "B"
     },
     {
-        "question": "",
+        "question": "How will your journey be affected by travelling outside the busy times of day?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Your journey will take longer",
+            "B. Your journey will have fewer delays",
+            "C. Your journey will use more fuel",
+            "D. Your journey will be more hazardous"
         ],
         "images": null,
-        "answer": ""
+        "answer": "B"
     },
     {
-        "question": "",
+        "question": "How would age affect an older person's driving ability?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. They'll take longer to react to hazards",
+            "B. They won't be able to obtain car insurance",
+            "C. They won't signal at junctions",
+            "D. They'll need glasses to read road signs"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "How would under-inflated tyres affect your vehicle?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. The vehicle's gear change mechanism would become stiff",
+            "B. The flash rate of the vehicle's indicators would increase",
+            "C. The vehicle's stopping distance would increase",
+            "D. The vehicle's headlights would aim high"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "If you're involved in a collision, what will reduce the risk of neck injury?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. A properly adjusted head restraint",
+            "B. An air-sprung seat",
+            "C. A collapsible steering wheel",
+            "D. Anti-lock brakes"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "In order to supervise a learner driver you need to have held a full driving licence for the same category of vehicle, for at least three years. What other requirement must you meet?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. To have a car with dual controls",
+            "B. To hold an advanced driving certificate",
+            "C. To be an approved driving instructor",
+            "D. To be at least 21 years old"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "In which conditions will your overall stopping distance increase?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. In strong winds",
+            "B. At night",
+            "C. In fog",
+            "D. In the rain"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "In winter, road signs can become covered by snow. What does this sign mean?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Give way",
+            "B. Crossroads",
+            "C. Stop",
+            "D. Turn right"
         ],
-        "images": null,
-        "answer": ""
+        "images": ["snowystopsign.gif"],
+        "answer": "C"
     },
     {
-        "question": "",
+        "question": "It's very windy. What should you do if you're behind a motorcyclist who's overtaking a high-sided vehicle?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Overtake the motorcyclist immediately",
+            "B. Stay level with the motorcyclist",
+            "C. Keep well back",
+            "D. Keep close to the motorcyclist"
         ],
         "images": null,
-        "answer": ""
+        "answer": "C"
     },
     {
         "question": "",
