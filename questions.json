@@ -814,147 +814,147 @@
         "answer": "C"
     },
     {
-        "question": "",
+        "question": "On a road where trams operate, which vehicles will be most at risk from the tram rails?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Cars",
+            "B. Buses",
+            "C. Cycles",
+            "D. Lorries"
+        ],
+        "images": null,
+        "answer": "C"
+    },
+    {
+        "question": "On a smart motorway, what does this sign mean?",
+        "options": [
+            "A. Use any lane except the hard shoulder",
+            "B. Use the hard shoulder only",
+            "C. Use the three right-hand lanes only",
+            "D. Use all the lanes, including the hard shoulder"
+        ],
+        "images": ["queueahead.gif"],
+        "answer": "D"
+    },
+    {
+        "question": "On a three-lane motorway, which lane should you use if there’s no traffic ahead?",
+        "options": [
+            "A. Centre",
+            "B. Right",
+            "C. Either the right or centre",
+            "D. Left"
+        ],
+        "images": null,
+        "answer": "D"
+    },
+    {
+        "question": "On a vehicle, where would you find a catalytic converter?",
+        "options": [
+            "A. On the exhaust system",
+            "B. On the cooling system",
+            "C. In the fuel tank",
+            "D. In the air filter"
+        ],
+        "images": null,
+        "answer": "A"
+    },
+    {
+        "question": "On what type of road surface may anti-lock brakes be ineffective?",
+        "options": [
+            "A. Firm",
+            "B. Smooth",
+            "C. Loose",
+            "D. Dry"
+        ],
+        "images": null,
+        "answer": "C"
+    },
+    {
+        "question": "Other drivers may sometimes flash their headlights at you. What’s the official meaning of this signal?",
+        "options": [
+            "A. There's a fault with your vehicle",
+            "B. There's a radar speed trap ahead",
+            "C. They're warning you of their presence",
+            "D. They're giving way to you"
+        ],
+        "images": null,
+        "answer": "C"
+    },
+    {
+        "question": "Other than direction indicators, how can you give signals to other road users?",
+        "options": [
+            "A. By using sidelights",
+            "B. By using fog lights",
+            "C. By using interior lights",
+            "D. By using brake lights"
+        ],
+        "images": null,
+        "answer": "D"
+    },
+    {
+        "question": "Powered vehicles used by disabled people are small and can be hard to see. What must they display if they’re travelling on a dual carriageway?",
+        "options": [
+            "A. Flashing amber beacon",
+            "B. Flashing green beacon",
+            "C. Flashing blue beacon",
+            "D. Flashing red beacon"
+        ],
+        "images": null,
+        "answer": "A"
+    },
+    {
+        "question": "Some two-way roads are divided into three lanes. Why are they particularly dangerous?",
+        "options": [
+            "A. Traffic in both directions can use the middle lane to overtake",
+            "B. Traffic can travel faster in poor weather conditions",
+            "C. Traffic can overtake on the left",
+            "D. Traffic uses the middle lane for emergencies only"
         ],
         "images": null,
         "answer": ""
     },
     {
-        "question": "",
+        "question": "The conditions are good and dry. When should you use the ‘two-second rule’?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. When checking your gap from the vehicle in front",
+            "B. Before restarting the engine after it has stalled",
+            "C. Before using the 'Mirrors - Signal - Manoeuvre' routine",
+            "D. When traffic lights change to green"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "The fluid level in your battery is low. What fluid should you use to top it up?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Engine coolant",
+            "B. Battery acid",
+            "C. Engine oil",
+            "D. Distilled water"
         ],
         "images": null,
-        "answer": ""
+        "answer": "D"
     },
     {
-        "question": "",
+        "question": "The road is wet. Why would a motorcyclist steer around drain covers while they were cornering?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. To prevent the motorcycle sliding on the metal drain covers",
+            "B. To avoid splashing pedestrians on the pavement",
+            "C. To avoid puncturing the tyres on the edge of the drain covers",
+            "D. To help judge the bend using the drain covers as marker points"
         ],
         "images": null,
-        "answer": ""
+        "answer": "A"
     },
     {
-        "question": "",
+        "question": "The road outside this school is marked with yellow zigzag lines. What do these lines mean?",
         "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. You must stay with your vehicle if you park here",
+            "B. You may park on the lines when dropping off schoolchildren",
+            "C. You shouldn't wait or park your vehicle here",
+            "D. You may park on the lines when picking up schoolchildren"
         ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
-    },
-    {
-        "question": "",
-        "options": [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
-        ],
-        "images": null,
-        "answer": ""
+        "images": ["yellowzigzaglines.gif"],
+        "answer": "C"
     },
     {
         "question": "",
